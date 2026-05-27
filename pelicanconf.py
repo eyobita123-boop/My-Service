@@ -26,3 +26,7 @@ DEFAULT_METADATA = {
 
 # Direct templates to render
 DIRECT_TEMPLATES = ['index']
+
+TEMPLATE_PAGES = {
+    'thanks.html': 'thanks/index.html',
+}
