@@ -9,11 +9,6 @@ DEFAULT_LANG = 'en'
 # Theme
 THEME = 'theme/my_theme'
 
-# Use the custom home template for any page with slug 'home'
-TEMPLATE_PAGES = {
-    'pages/home.html': 'index.html',   # this makes the home page our custom template
-}
-
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -21,5 +16,10 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blog settings (keep for future)
+# Blog settings
 DEFAULT_PAGINATION = False
+
+# Default metadata
+DEFAULT_METADATA = {
+    'status': 'draft',
+}
