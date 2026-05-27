@@ -9,7 +9,7 @@ DEFAULT_LANG = 'en'
 # Theme
 THEME = 'theme/my_theme'
 
-# Feed generation is usually not desired when developing
+# Feed generation
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
@@ -23,3 +23,6 @@ DEFAULT_PAGINATION = False
 DEFAULT_METADATA = {
     'status': 'draft',
 }
+
+# Direct templates to render
+DIRECT_TEMPLATES = ['index']
