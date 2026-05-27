@@ -7,7 +7,7 @@ TIMEZONE = 'Africa/Addis_Ababa'
 DEFAULT_LANG = 'en'
 
 # Theme
-THEME = 'theme/eyob-theme'
+THEME = 'theme/my_theme'
 
 # Use the custom home template for any page with slug 'home'
 TEMPLATE_PAGES = {
