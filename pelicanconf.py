@@ -30,3 +30,9 @@ DIRECT_TEMPLATES = ['index']
 TEMPLATE_PAGES = {
     'thanks.html': 'thanks/index.html',
 }
+
+# Static paths
+STATIC_PATHS = ['images', 'extra']
+EXTRA_PATH_METADATA = {
+    'extra/eyob-hero.jpg': {'path': 'eyob-hero.jpg'},
+}
