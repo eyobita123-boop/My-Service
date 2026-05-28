@@ -25,14 +25,10 @@ DEFAULT_METADATA = {
 }
 
 # Direct templates to render
-DIRECT_TEMPLATES = ['index']
+DIRECT_TEMPLATES = ['index', 'thanks']
 
-TEMPLATE_PAGES = {
-    'thanks.html': 'thanks/index.html',
-}
-
-# Static paths
-STATIC_PATHS = ['images', 'extra']
+# Static paths - THIS COPIES YOUR PHOTO TO OUTPUT
+STATIC_PATHS = ['extra']
 EXTRA_PATH_METADATA = {
     'extra/eyob-hero.jpg': {'path': 'eyob-hero.jpg'},
 }
